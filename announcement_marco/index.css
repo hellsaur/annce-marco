@@ -1,0 +1,98 @@
+*{
+    margin:0;
+}
+
+ .header {
+    background-color:black;
+            
+     background: url("https://i.kinja-img.com/gawker-media/image/upload/s--JMT4bu5v--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/w48c3kblvxfky5ckwok1.jpg");
+     background-size: cover;
+     height: 700px;
+	}
+
+.nav ul{
+    display: inline-block;
+    background: rgba(0,0,0,.2);
+    width: 100%;
+    word-spacing: 100px;
+    height: 30px;
+    font-size: 20pt;
+    list-style: none;
+    text-align: center;
+    
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: azure;
+}
+	
+.video{
+		background-color:black;
+		height:1500px;
+        background-image: url("https://hdqwalls.com/wallpapers/hulk-hela-thor-in-thor-ragnarok-5w.jpg");
+        background-size:cover;
+        box-shadow: 3px 4px 3px rgba(0,0,0,.8);   
+	}
+
+    .thorpng{
+    position:absolute;
+     top:1350px;   
+     }
+   .thorpng:hover{
+    opacity:.8;
+    outline-color:aqua;
+     }
+    .hulkpng{
+     position:absolute;
+     right:0px;
+     top:1300px;
+     }
+     
+    .hulkpng:hover{
+     opacity: .8;
+     }
+    h4{
+    color:greenyellow;
+     }
+
+
+.text {
+    background: rgba(0,0,0,.6);
+    width: 60%;
+    color:white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size:15px;
+    padding:10px;
+    box-shadow: 3px 4px 3px rgba(0,0,0,.8);
+    border-radius: 30px;
+}
+  table a{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration: none;
+    color:red;
+    text-shadow:3px 4px 3px rgba(255,255,255,.8);
+    }
+.table{
+    font-family: 'Julius Sans One', sans-serif;
+    width:880px;
+    background-color: rgba(249,170,11,.7);
+    color:;
+    border-radius:30px;
+    margin-top:10px;
+}
+.date{
+    color:white;
+    margin-left:0px;
+    margin-top: 300px; 
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    text-shadow: 3px 4px 3px rgba(0,0,0,.8);
+}

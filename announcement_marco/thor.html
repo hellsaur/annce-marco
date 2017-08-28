@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Cantarell|Julius+Sans+One|Questrial|Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<title>Thor</title>
+</head>
+
+<style type="text/css">
+	
+ body{
+        background-image:url("https://images6.alphacoders.com/589/thumb-1920-589735.png");
+        background-color: black;
+    }
+    
+.text{
+    background: rgba(250,26,18,.6);
+    width:600px;
+    height: 480px;
+    color:white;
+    font-size:16px;
+    padding:10px;
+    margin-left:80px;
+    margin-top: 150px;
+    border-radius:30px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+ .thor {
+        background-color:rgba(81,220,230,0);
+        position:absolute;
+        color:ghostwhite;
+        height:100px;
+        width:300px;
+        font-size:80px;
+        margin-left: 80px;
+        font-family: 'Lobster', cursive;
+    } 
+    
+    .thor h1 {
+        text-shadow:3px 4px 3px rgba(81,220,230,.8); 
+     }
+    .modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+   
+}
+    .modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+        
+  
+}
+    a{
+    text-decoration: none;
+    color:deepskyblue;
+    text-shadow:3px 4px 3px rgba(0,0,0,.8);
+    }
+    
+    .modalDialog > div {
+	width: 800px;
+    height:600px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#ff1a1a, #99d6ff);
+	background: -webkit-linear-gradient(#ff1a1a, #99d6ff);
+	background: -o-linear-gradient(#ff1a1a, #99d6ff);
+    
+    }
+    
+    .close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+</style>
+<body>
+    
+    <header class="header">
+        <nav class="nav">
+            <ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="thor.html">THOR</a></li>
+			<li><a href="hulk.html">HULK</a></li>
+            <li><a href="hela.html">HELA</a></li>
+            <li><a href="loki.html">LOKI</a></li>
+		</ul>
+        </nav>
+      
+    
+    </header>
+    <div class="thor"><h1>Thor</h1></div>
+        <div class="text"><br><br>
+            <h2>History</h2><br><br>
+            <P>Thor is the blood-son of Odin, All-Father of the Asgardians, and Jord, who was also known as Gaea, the goddess who was one of the Elder Gods. Odin sought to father a son whose power would derive from both Asgard and Midgard (as the Earth realm is called by Asgardians), and hence he sought to mate with Jord. Odin created a cave in Norway where Jord gave birth to Thor. 19 Months after the infant Thor was weaned, Odin brought him to Asgard to be raised. Odin's wife, the goddess Frigga, acted as Thor's mother from that time onward. Not until many decades later did Thor learn that Jord was his birth mother.<br>
+            The young Thor was raised alongside Loki, who had been adopted by Odin after Loki's Frost Giant father Laufey had been killed in battle. For all of their childhood, Loki was jealous of Thor. Loki's jealousy, which grew to hatred, resulted in a desire to kill Thor. Thus began Loki's enmity for Thor, which persisted for many centuries.</P><br>
+            
+             <a href="#openModal">GIF images</a>
+
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<img src="https://media.giphy.com/media/EOfarA6ZUqzZu/giphy.gif">
+        <img src="https://media.giphy.com/media/1uQg9WE9JLuX6/giphy.gif">
+        <img src="https://media.giphy.com/media/WtTMyiSlWX3yg/giphy.gif">
+        <img src="https://media.giphy.com/media/d5VisI37OGmwU/giphy.gif">
+        <img src="https://media.giphy.com/media/YsKbjF0eZDji0/giphy.gif">
+
+	</div>
+</div>
+    </div>
+   
+    
+</body>
+</html>
